@@ -30,6 +30,9 @@ public class QB {
 		double d = 2.375-(INT/ATT)*25;
 
 		double Passer_Rating = ((a+b+c+d)/6)*100;
+		if (Passer_Rating < 0){
+			Passer_Rating = 0;
+		}
 		return Passer_Rating;
 		
 	}	}
