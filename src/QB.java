@@ -17,6 +17,7 @@ public class QB {
 		int TD = Input.nextInt();
 		System.out.println("Enter Number of interceptions");
 		int INT = Input.nextInt();
+		Input.close();
 		
 		double passer_Rating = calc_Passer_Rating(ATT,COMP,YDS,TD,INT);
 		System.out.println("This passers rating is " + passer_Rating);
